@@ -3,8 +3,26 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: Overpass, sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 1.5rem;
+  padding: 0;
+  background-color: #ff9500;
+  color: #fff;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+}
+
+.icon svg {
+  fill: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
