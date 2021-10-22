@@ -60,7 +60,7 @@ a {
   border: .2rem solid;
 
   padding: 1rem;
-  margin-top: 0.25rem;
+  margin-top: .25rem;
   margin-bottom: 1rem;
 }
 
@@ -70,6 +70,7 @@ a:focus {
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
     font-size: 100%;
   }
@@ -120,4 +121,17 @@ a:focus {
   .third {
     grid-area: bottom3;
   }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 100%;
+  }
+
+  section {
+    margin: 4rem;
+  }
+
 }
